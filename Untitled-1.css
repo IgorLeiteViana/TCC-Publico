@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700');
+@import url('assets/css/loader/loaders.css');
+@import url('assets/css/font-awesome/font-awesome.css');
+@import url('assets/css/bootstrap.css');
+@import url('assets/css/aos/aos.css');
+@import url('assets/css/swiper/swiper.css');
+@import url('assets/css/lightgallery.min.css');
+@import url('assets/css/style.css');
+@import url('assets/css/responsive.css');
+
+/* Custom styles go here */
+
+body {
+    background-color: #ffffff; /* Defina a cor de fundo que desejar */
+}
+
+      /* Classe personalizada para o texto "Art of Work" */
+      .art-of-work {
+        color: goldenrod; /* Cor dourada desejada */
+        display: inline-block;
+    }
+
+    /* Classe personalizada para o contêiner do texto e do restante das informações */
+    .header-content {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Classe personalizada para alinhar o restante das informações à direita */
+    .header-content .right-content {
+        margin-left: auto;
+    }
+
+
+
+
+
+    #visitar-site {
+        margin-top: 20px;
+      }
+      
+      #visitar-site h2 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      #visitar-site p {
+        margin-bottom: 10px;
+      }
+      
+      #visitar-site a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #120303;
+        text-decoration: none;
+      }
+      
+      .single-widget.recent-post-widget {
+        margin-bottom: 20px;
+      }
+      
+  
+      #ss {
+        background-color: #26264b;
+        padding: 50px 0;
+      }
+      
+      #ss .title {
+        margin-bottom: 30px;
+      }
+      
+      #ss .title-primary {
+        font-size: 16px;
+        color: #ffffff;
+      }
+      
+      #ss h1 {
+        font-size: 36px;
+        color: #f6f3f3;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      
+      #ss p, #ss h5, #ss ul {
+        font-size: 16px;
+        color: #f9f6f6;
+        margin-bottom: 20px;
+      }
+      
+      #ss ul {
+        margin-bottom: 30px;
+      }
+      
+      #ss ul li {
+        margin-bottom: 10px;
+      }
+      
+      #ss .gallery {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      #ss .gallery .gal-img {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      #ss .gallery .gal-img img {
+        width: 100%;
+        height: auto;
+      }
+      
+      #ss .gallery .gal-img i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        color: #fbf707;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      #ss .gallery .gal-img:hover i {
+        opacity: 1;
+      }
+      
+      .gallery-section {
+        text-align: center;
+      }
+      
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .gallery-item {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        overflow: hidden;
+      }
+      
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+      }
+      
+      .gallery-item img:hover {
+        transform: scale(1.1);
+      }
+      
+      .gallery-button {
+        margin-top: 30px;
+      }
+      
+      .project-section {
+        background-color: #0d0e0f;
+        padding: 80px 0;
+      }
+      
+      .project-info {
+        text-align: center;
+      }
+      
+      .project-info h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      
+      .project-info p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+      
+      .project-info ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .project-info ul li {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      
+      .image-gallery {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .image-gallery img {
+        width: 30%;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+      
+      @media (max-width: 1768px) {
+        .project-info, .image-gallery {
+          text-align: center;
+        }
+      
+        .image-gallery {
+          flex-wrap: wrap;
+        }
+      
+        .image-gallery img {
+          width: 45%;
+          margin-bottom: 20px;
+        }
+      }

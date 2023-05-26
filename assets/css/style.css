@@ -25,13 +25,13 @@
     1 - Header
 ------------------------------------*/
 header {
-  background-color: rgba(26, 10, 56, 0.53);
-  color: #fff;
+  background-color: #ffd700;
+  color: #ffd700;
   z-index: 1000;
 }
 
 header a {
-  color: #fff;
+  color: #ffd700;
 }
 
 header::after {
@@ -95,11 +95,12 @@ header::after {
 }
 
 .social a {
+  border: 1px solid #ffd700;
   font-size: 14px;
   display: inline-block;
   width: 40px;
   height: 40px;
-  border: 1px solid #ee1515;
+  border: 1px solid #ffd700; /* Alterado para cor dourada */
   border-radius: 4px;
   line-height: 40px;
   text-align: center;
@@ -108,8 +109,8 @@ header::after {
 }
 
 .social a:hover {
-  color: #fff;
-  background-color: #ee1515;
+  color: #ffd700;
+  
 }
 
 .navbar-brand img {
@@ -134,13 +135,13 @@ header::after {
 }
 
 .navbar-collapse .nav-link:hover {
-  color: #ee1515;
+  color: #ffd700; /* Alterado para cor dourada */
 }
 
 .cart,
 .login-icon,
 .search-icon {
-  color: #fff;
+  color: #ffd700; /* Alterado para cor dourada */
   font-size: 1.5rem;
 }
 
@@ -159,7 +160,6 @@ form button.btn-primary:hover {
   background-color: #fff;
   color: #ee1515;
 }
-
 /*-----------------------------------
     1 - Hero
 ------------------------------------*/
@@ -522,7 +522,7 @@ form button.btn-primary:hover {
 
 .trust .gal-img i {
   font-size: 72px;
-  color: #fff;
+  color: #eadf0b;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -655,12 +655,12 @@ form button.btn-primary:hover {
     1 - Testimonials
 ------------------------------------*/
 .testimonial-and-clients {
-  background: url(../images/test-clients-bg.png) center center/cover no-repeat #ee1515;
+  background: url(../images/test-clients-bg.png) center center/cover no-repeat #fffb06;
 }
 
 .testimonials {
   padding: 95px 0 85px;
-  color: #fff;
+  color: #281414;
   border-bottom: 1px solid #26264b;
 }
 
@@ -680,12 +680,12 @@ form button.btn-primary:hover {
 }
 
 .testimonials h5 {
-  color: #26264b;
+  color: #070606;
   margin-top: 15px;
 }
 
 .testimonials span {
-  color: #c4c4c4;
+  color: #241b1b;
   display: inline-block;
   margin: 0 0 17px;
 }
@@ -704,7 +704,7 @@ form button.btn-primary:hover {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background-color: #26264b;
+  background-color: #ffdd03;
   margin-bottom: 0;
   transition: all 0.2s ease-in-out;
 }
@@ -720,7 +720,7 @@ form button.btn-primary:hover {
 .test-pagination span.swiper-pagination-bullet-active {
   width: 12px;
   height: 12px;
-  background-color: white;
+  background-color: rgb(178, 248, 2);
 }
 
 /*-----------------------------------

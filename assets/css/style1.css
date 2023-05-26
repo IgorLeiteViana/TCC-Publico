@@ -1,0 +1,253 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .navbar {
+    text-align: left;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #destaque {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #destaque h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  #destaque p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  #valores {
+    text-align: center;
+  }
+  
+  #valores h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #valores ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+  }
+  
+  #valores li {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  #downloads {
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #downloads h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  #downloads p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  #downloads .downloads-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .download-item {
+    margin: 10px;
+  }
+  
+  .download-item a {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .download-item a i {
+    margin-right: 5px;
+  }
+  
+  .download-item a:hover {
+    background-color: #555;
+  }
+  
+  .download-all a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .download-all a i {
+    margin-right: 5px;
+  }
+  
+  .download-all a:hover {
+    background-color: #555;
+  }
+  
+  #contato {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contato h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  #contato p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #contact-form textarea {
+    height: 150px;
+  }
+  
+  #contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  #contact-form button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-media {
+    margin-bottom: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .social-media a:hover {
+    color: #aaa;
+  }
+  
+  footer p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  /* clientes */
+
+  #clientes {
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #clientes h2 {
+    margin-bottom: 20px;
+  }
+  
+  .clientes-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cliente {
+    margin: 0 10px;
+  }
+  
+  .cliente img {
+    max-width: 100%;
+    height: auto;
+  }
